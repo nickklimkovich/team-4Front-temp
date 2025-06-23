@@ -2,8 +2,6 @@ export interface ITraceData {
     url: string;
     lineNumber: number;
     columnNumber: number;
-    module: string;
-    at: string;
 }
 
 interface IExceptionData {
@@ -19,7 +17,7 @@ const ParsingError = new Error('Failed to parse exception trace. Please ensure t
     'Column number: number\n\n' +
     'Stack trace: \n\n' +
     '//======StackTrace=======\n' +
-    '[{"url":"string","lineNumber":"number","columnNumber":"number","module":"string","at":"string"}, ...]'
+    '[{"url":"string","lineNumber":"number","columnNumber":"number"}, ...]'
 );
 
 export const parseException = (traceStr: string): IExceptionData => {
