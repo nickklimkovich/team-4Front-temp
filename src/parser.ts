@@ -1,4 +1,4 @@
-interface ITraceData {
+export interface ITraceData {
     url: string;
     lineNumber: number;
     columnNumber: number;
@@ -39,8 +39,8 @@ export const parseException = (traceStr: string): IExceptionData => {
     return {trace: parsedStackTrace, prompt: traceStr, exception };
 }
 
-
-/*console.log(parseException(`Cause: EX8B75FD73: Cannot read properties of undefined (reading 'companyGroups')
+/*
+console.log(parseException(`Cause: EX8B75FD73: Cannot read properties of undefined (reading 'companyGroups')
 
 https://my296.transfloeld.com/universaltruckloadservices/dist/4325.js
 
