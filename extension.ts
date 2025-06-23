@@ -1,4 +1,5 @@
 import * as vscode from "vscode";
+import { getSentryTextIssue } from "./src/getSentryIssue";
 
 export function activate(context: vscode.ExtensionContext) {
     const getTextFromEditor = () => {
@@ -62,13 +63,13 @@ export function activate(context: vscode.ExtensionContext) {
     };
 
     const agentCommandHandler = async () => {
-        const selectedText = getTextFromEditor();
+        const selectedText = await getSentryTextIssue();
         if (!selectedText) {
             return;
         }
 
         const prompt = `Explain the following code: \n\n\`\`\`\n${selectedText}\n\`\`\``;
-        vscode.commands.executeCommand("workbench.action.chat.open", { query: `@agent ${prompt}`, model: "gemini-2.5-pro" });
+        vscode.commands.executeCommand("workbench.action.chat.openAgent", { query: `${prompt}`, id: "gemini" });
     };
 
     context.subscriptions.push(vscode.commands.registerCommand("copilot-agent-example.askCopilot", commandHandler));
