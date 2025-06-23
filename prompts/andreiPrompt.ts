@@ -1,8 +1,6 @@
 export const andreiPrompt = `
 I have next exception:
 Cause: {errorMessage}
-Stack trace:
-{stackTrace}
 
 I downloaded a minified JS file contains the error. I found the place using 'Line number' and 'Column number' and cut the file content to have 500 symbols before and 500 symbols after the 'Line number' and 'Column number'.
 Here is the result:
