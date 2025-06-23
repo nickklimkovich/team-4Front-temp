@@ -22,7 +22,7 @@ const ParsingError = new Error('Failed to parse exception trace. Please ensure t
     '[{"url":"string","lineNumber":"number","columnNumber":"number","module":"string","at":"string"}, ...]'
 );
 
-const parseException = (traceStr: string): IExceptionData => {
+export const parseException = (traceStr: string): IExceptionData => {
     const [_, stackTrace] = traceStr.split("//======StackTrace=======");
     if (!stackTrace) {
         throw ParsingError;
