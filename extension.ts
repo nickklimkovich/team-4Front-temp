@@ -1,5 +1,11 @@
 import * as vscode from "vscode";
 import { getSentryTextIssue } from "./src/getSentryIssue";
+import { prompt1 } from "./prompts/prompt1";
+import { validate } from "./src/validator";
+import { parseException } from "./src/parser";
+import { loadFileAndGatherContent } from "./src/loader";
+
+const PROMPT = prompt1;
 
 export function activate(context: vscode.ExtensionContext) {
     const getTextFromEditor = () => {
@@ -64,12 +70,20 @@ export function activate(context: vscode.ExtensionContext) {
 
     const agentCommandHandler = async () => {
         const selectedText = await getSentryTextIssue();
-        if (!selectedText) {
+
+        try {
+            if (!validate(selectedText)) {
+                return;
+            };
+            const parsedException = parseException(selectedText);
+            const firstStackTraceItem = parsedException.trace[0];
+            const file = await loadFileAndGatherContent(firstStackTraceItem);
+            const message = PROMPT.replace("{errorMessage}", parsedException.exception).replace("{stackTrace}", JSON.stringify(parsedException.trace)).replace("{code}", file);
+            vscode.commands.executeCommand("workbench.action.chat.openAgent", { query: `${message}`, id: "gemini" });
+        } catch (error: any) {
+            vscode.window.showErrorMessage(`Validation error: ${error.message}`);
             return;
         }
-
-        const prompt = `Explain the following code: \n\n\`\`\`\n${selectedText}\n\`\`\``;
-        vscode.commands.executeCommand("workbench.action.chat.openAgent", { query: `${prompt}`, id: "gemini" });
     };
 
     context.subscriptions.push(vscode.commands.registerCommand("copilot-agent-example.askCopilot", commandHandler));
