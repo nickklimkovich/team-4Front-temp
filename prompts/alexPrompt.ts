@@ -3,8 +3,8 @@ First, make sure that you have the most recent context of our code base.
 Act as an expert JavaScript developer specializing in debugging production issues.
 Your task is to analyze the following production error from an uglified JavaScript file and identify the exact location (file and line number) in the original source code where the error occurred.
 Context:
-Exception Message: {exceptionMessage}
-Uglified Code Snippet: {codeSnippet}
+Exception Message: {errorMessage}
+Uglified Code Snippet: {code}
 Full Stack Trace: {stackTrace}
 Instructions:
 Pinpoint the file path and the specific line number in the original, non-uglified source code that corresponds to the error.

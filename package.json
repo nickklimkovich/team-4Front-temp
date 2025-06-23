@@ -1,7 +1,7 @@
 {
-    "name": "copilot-agent-example",
-    "displayName": "Copilot Agent Example",
-    "description": "An example VS Code extension that interacts with the Copilot agent.",
+    "name": "copilot-sentry-agent",
+    "displayName": "Copilot Sentry Agent",
+    "description": "Use Copilot agent to find the place of Sentry error in the codebase.",
     "version": "0.0.1",
     "publisher": "your-publisher-name",
     "engines": {
@@ -10,19 +10,12 @@
     "categories": [
         "Other"
     ],
-    "activationEvents": [
-        "onCommand:copilot-agent-example.askCopilot"
-    ],
     "main": "./out/extension.js",
     "contributes": {
         "commands": [
             {
-                "command": "copilot-agent-example.askCopilot",
-                "title": "Ask Copilot to explain selection"
-            },
-            {
-                "command": "copilot-agent-example.askCopilotAgent",
-                "title": "Ask Copilot Agent to explain selection"
+                "command": "copilot-sentry-agent.askCopilotAgent",
+                "title": "Debug UI Sentry error"
             }
         ]
     },
