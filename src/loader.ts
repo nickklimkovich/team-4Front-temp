@@ -2,13 +2,13 @@ import { ITraceData } from './parser';
 
 const Threshold = 500;
 
-export const loadFileAndGatherContent = async (exceptionData: ITraceData): Promise<any> => {
+export const loadFileAndGatherContent = async (exceptionData: ITraceData, threshold = Threshold): Promise<any> => {
     try {
         const response = await fetch(exceptionData.url);
         const data = await response.text();
         const line = data.split('\n')[exceptionData.lineNumber - 1];
-        const startColumn = Math.max(0, exceptionData.columnNumber - Threshold);
-        const endColumn = Math.max(Threshold * 2, exceptionData.columnNumber + Threshold);
+        const startColumn = Math.max(0, exceptionData.columnNumber - threshold);
+        const endColumn = Math.max(threshold * 2, exceptionData.columnNumber + threshold);
 
         return line.substring(startColumn, endColumn).trim();
     } catch (error) {
