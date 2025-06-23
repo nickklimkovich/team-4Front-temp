@@ -1,4 +1,5 @@
 import * as vscode from "vscode";
+import { getSentryTextIssue } from "./src/getSentryIssue";
 
 export function activate(context: vscode.ExtensionContext) {
     const getTextFromEditor = () => {
@@ -62,7 +63,7 @@ export function activate(context: vscode.ExtensionContext) {
     };
 
     const agentCommandHandler = async () => {
-        const selectedText = getTextFromEditor();
+        const selectedText = await getSentryTextIssue();
         if (!selectedText) {
             return;
         }
