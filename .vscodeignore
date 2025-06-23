@@ -1,0 +1,7 @@
+.vscode/**
+node_modules/**
+out/**
+.gitignore
+tsconfig.json
+npm-shrinkwrap.json
+yarn.lock

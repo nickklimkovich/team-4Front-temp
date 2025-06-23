@@ -1,0 +1,35 @@
+{
+    "name": "copilot-agent-example",
+    "displayName": "Copilot Agent Example",
+    "description": "An example VS Code extension that interacts with the Copilot agent.",
+    "version": "0.0.1",
+    "publisher": "your-publisher-name",
+    "engines": {
+        "vscode": "^1.88.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:copilot-agent-example.askCopilot"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "copilot-agent-example.askCopilot",
+                "title": "Ask Copilot to explain selection"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.88.0",
+        "@types/node": "20.x",
+        "typescript": "^5.3.3"
+    }
+}
