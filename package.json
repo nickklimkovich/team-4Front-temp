@@ -19,6 +19,10 @@
             {
                 "command": "copilot-agent-example.askCopilot",
                 "title": "Ask Copilot to explain selection"
+            },
+            {
+                "command": "copilot-agent-example.askCopilotAgent",
+                "title": "Ask Copilot Agent to explain selection"
             }
         ]
     },
