@@ -69,7 +69,7 @@ export function activate(context: vscode.ExtensionContext) {
         }
 
         const prompt = `Explain the following code: \n\n\`\`\`\n${selectedText}\n\`\`\``;
-        vscode.commands.executeCommand("workbench.action.chat.openAgent", { query: `${prompt}`, id: "gemini-2.5-pro" });
+        vscode.commands.executeCommand("workbench.action.chat.openAgent", { query: `${prompt}`, id: "gemini" });
     };
 
     context.subscriptions.push(vscode.commands.registerCommand("copilot-agent-example.askCopilot", commandHandler));
