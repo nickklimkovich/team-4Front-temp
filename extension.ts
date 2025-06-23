@@ -1,9 +1,9 @@
 import * as vscode from "vscode";
-import { getSentryTextIssue } from "./src/getSentryIssue";
-import { prompt1 } from "./prompts/prompt1";
 import { validate } from "./src/validator";
+import { prompt1 } from "./prompts/prompt1";
 import { parseException } from "./src/parser";
 import { loadFileAndGatherContent } from "./src/loader";
+import { showMultilineInputBox } from "./src/multilineWindow";
 
 const PROMPT = prompt1;
 
@@ -69,12 +69,15 @@ export function activate(context: vscode.ExtensionContext) {
     };
 
     const agentCommandHandler = async () => {
-        const selectedText = await getSentryTextIssue();
+        const selectedText =
+            (await showMultilineInputBox({
+                title: "Please provide information about the Sentry issue."
+            })) ?? "";
 
         try {
             if (!validate(selectedText)) {
                 return;
-            };
+            }
             const parsedException = parseException(selectedText);
             const firstStackTraceItem = parsedException.trace[0];
             const file = await loadFileAndGatherContent(firstStackTraceItem);
