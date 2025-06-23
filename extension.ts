@@ -1,7 +1,7 @@
 import * as vscode from "vscode";
 
 export function activate(context: vscode.ExtensionContext) {
-    const commandHandler = async () => {
+    const getTextFromEditor = () => {
         const editor = vscode.window.activeTextEditor;
         if (!editor) {
             vscode.window.showInformationMessage("No active text editor");
@@ -12,6 +12,14 @@ export function activate(context: vscode.ExtensionContext) {
         const selectedText = editor.document.getText(selection);
         if (!selectedText) {
             vscode.window.showInformationMessage("No text selected");
+            return;
+        }
+        return selectedText;
+    };
+
+    const commandHandler = async () => {
+        const selectedText = getTextFromEditor();
+        if (!selectedText) {
             return;
         }
 
@@ -54,16 +62,8 @@ export function activate(context: vscode.ExtensionContext) {
     };
 
     const agentCommandHandler = async () => {
-        const editor = vscode.window.activeTextEditor;
-        if (!editor) {
-            vscode.window.showInformationMessage("No active text editor");
-            return;
-        }
-
-        const selection = editor.selection;
-        const selectedText = editor.document.getText(selection);
+        const selectedText = getTextFromEditor();
         if (!selectedText) {
-            vscode.window.showInformationMessage("No text selected");
             return;
         }
 
