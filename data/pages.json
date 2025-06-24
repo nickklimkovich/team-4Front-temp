@@ -1,0 +1,917 @@
+[
+  {
+    "page": "about",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "ace",
+    "team": "Pixel Pipeline",
+    "teamLead": "Gordana Jekic Dzunic"
+  },
+  {
+    "page": "addassets",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "addinmanagement",
+    "team": "Griffins",
+    "teamLead": "Arseni Prokharchyk"
+  },
+  {
+    "page": "assetLocationSharing",
+    "team": "Pixel Pipeline",
+    "teamLead": "Gordana Jekic Dzunic"
+  },
+  {
+    "page": "assetMonitoring",
+    "team": "Turing",
+    "teamLead": "Benjamin Di"
+  },
+  {
+    "page": "assetsmonitor",
+    "team": "Turing",
+    "teamLead": "Benjamin Di"
+  },
+  {
+    "page": "assetutil",
+    "team": "Quasar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "assetUtilization",
+    "team": "Quasar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "auditLogs",
+    "team": "8-Bit",
+    "teamLead": "Danis Nguyen"
+  },
+  {
+    "page": "auditlogs2",
+    "team": "8-Bit",
+    "teamLead": "Danis Nguyen"
+  },
+  {
+    "page": "bevrangecapability",
+    "team": "Red",
+    "teamLead": "Yurii Mustafin"
+  },
+  {
+    "page": "cameras",
+    "team": "Team Focus",
+    "teamLead": "Prianka Mitra"
+  },
+  {
+    "page": "changePassword",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "chargeStationDashboard",
+    "team": "Red",
+    "teamLead": "Yurii Mustafin"
+  },
+  {
+    "page": "cleanTruckCheckProgram",
+    "team": "Tallon",
+    "teamLead": "Olga Makhneva"
+  },
+  {
+    "page": "clearance",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "clearance2",
+    "team": "Connection",
+    "teamLead": "Thomas Jiang"
+  },
+  {
+    "page": "clearances",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "contact",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "credits",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "customerstops",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "customerStopsReport",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "customerVisits",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "customReport",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "customReports",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "customUnitProfile",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "dashboard",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "datafilesstatus",
+    "team": "Siesta",
+    "teamLead": "Guillermo Martín Gomez"
+  },
+  {
+    "page": "defectList",
+    "team": "Titan",
+    "teamLead": "Matthew (Matt) Claessens"
+  },
+  {
+    "page": "defectLists",
+    "team": "Titan",
+    "teamLead": "Matthew (Matt) Claessens"
+  },
+  {
+    "page": "device2",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "deviceInstallation",
+    "team": "SEAL",
+    "teamLead": "Mykola (Nick) Somov"
+  },
+  {
+    "page": "deviceInstallHistory",
+    "team": "SEAL",
+    "teamLead": "Mykola (Nick) Somov"
+  },
+  {
+    "page": "devices",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "deviceSerialNo",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "distributionList",
+    "team": "NULL Pixels",
+    "teamLead": "Bernie Cheng"
+  },
+  {
+    "page": "distributionLists",
+    "team": "NULL Pixels",
+    "teamLead": "Bernie Cheng"
+  },
+  {
+    "page": "driverlogs",
+    "team": "Titan",
+    "teamLead": "Matthew (Matt) Claessens"
+  },
+  {
+    "page": "driversafety",
+    "team": "APIology",
+    "teamLead": "Kaylan Henley"
+  },
+  {
+    "page": "drivingtimesstatus",
+    "team": "Siesta",
+    "teamLead": "Guillermo Martín Gomez"
+  },
+  {
+    "page": "dvir",
+    "team": "Titan",
+    "teamLead": "Matthew (Matt) Claessens"
+  },
+  {
+    "page": "dvirs",
+    "team": "Titan",
+    "teamLead": "Matthew (Matt) Claessens"
+  },
+  {
+    "page": "editRoute",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "engineController",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "engineControllers",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "engineDataProfile",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "engineDiagnostic",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "engineDiagnostics",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "engineFaults",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "engineMeasurements",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "engineType",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "engineTypes",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "evbatteryhealth",
+    "team": "Red",
+    "teamLead": "Yurii Mustafin"
+  },
+  {
+    "page": "evCharging",
+    "team": "Green",
+    "teamLead": "Christopher Elliott"
+  },
+  {
+    "page": "exception",
+    "team": "Galaxy",
+    "teamLead": "Levi Tiessen"
+  },
+  {
+    "page": "exceptions",
+    "team": "Galaxy",
+    "teamLead": "Levi Tiessen"
+  },
+  {
+    "page": "exceptions2",
+    "team": "Knife",
+    "teamLead": "Thomas Jiang"
+  },
+  {
+    "page": "exceptionsSummary",
+    "team": "Galaxy",
+    "teamLead": "Levi Tiessen"
+  },
+  {
+    "page": "exceptionVideo",
+    "team": "Team Focus",
+    "teamLead": "Prianka Mitra"
+  },
+  {
+    "page": "faultdetails",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "faults",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "faultshistory",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "fileanalysisinfringementsreport",
+    "team": "Siesta",
+    "teamLead": "Guillermo Martín Gomez"
+  },
+  {
+    "page": "fuelEvent",
+    "team": "Green",
+    "teamLead": "Christopher Elliott"
+  },
+  {
+    "page": "fuelEvents",
+    "team": "Green",
+    "teamLead": "Christopher Elliott"
+  },
+  {
+    "page": "fuelEventsGraph",
+    "team": "Green",
+    "teamLead": "Christopher Elliott"
+  },
+  {
+    "page": "fuelUsage",
+    "team": "Green",
+    "teamLead": "Christopher Elliott"
+  },
+  {
+    "page": "gpsTextMessages",
+    "team": "NULL Pixels",
+    "teamLead": "Bernie Cheng"
+  },
+  {
+    "page": "gpsTextMessageSend",
+    "team": "NULL Pixels",
+    "teamLead": "Bernie Cheng"
+  },
+  {
+    "page": "group",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "groupsTree",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "helpforum",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "helpGuide",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "helpResources",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "home",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "hosAvailability",
+    "team": "Titan",
+    "teamLead": "Matthew (Matt) Claessens"
+  },
+  {
+    "page": "hosLog",
+    "team": "Titan",
+    "teamLead": "Matthew (Matt) Claessens"
+  },
+  {
+    "page": "hosLogs",
+    "team": "Titan",
+    "teamLead": "Matthew (Matt) Claessens"
+  },
+  {
+    "page": "hosRecaps",
+    "team": "Titan",
+    "teamLead": "Matthew (Matt) Claessens"
+  },
+  {
+    "page": "hosViolations",
+    "team": "Titan",
+    "teamLead": "Matthew (Matt) Claessens"
+  },
+  {
+    "page": "iftaMiles",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "importAssets",
+    "team": "NULL Pixels",
+    "teamLead": "Bernie Cheng"
+  },
+  {
+    "page": "importRoutes",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "importZones",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "inventory",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "linkedassets",
+    "team": "Turing",
+    "teamLead": "Benjamin Di"
+  },
+  {
+    "page": "linkedAssetsHistory",
+    "team": "Turing",
+    "teamLead": "Benjamin Di"
+  },
+  {
+    "page": "livechat",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "livevideo",
+    "team": "Team Focus",
+    "teamLead": "Prianka Mitra"
+  },
+  {
+    "page": "logDetails",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "maintenancecenter",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "maintenanceRecord",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "maintenanceRecords",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "maintenanceReminder",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "maintenanceremindermultisource",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "maintenanceReminders",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "maintenancermindernotificationeditor",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "maintenanceschedule",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "maintenanceschedules",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "maintenanceTypes",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "maintenanceworkjob",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "maintenanceworkjobdetails",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "maintenanceworkrequest",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "managepresets",
+    "team": "Turing",
+    "teamLead": "Benjamin Di"
+  },
+  {
+    "page": "map",
+    "team": "Pixel Pipeline",
+    "teamLead": "Gordana Jekic Dzunic"
+  },
+  {
+    "page": "materialManagement",
+    "team": "Quasar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "mediacenter",
+    "team": "Team Focus",
+    "teamLead": "Prianka Mitra"
+  },
+  {
+    "page": "messages",
+    "team": "NULL Pixels",
+    "teamLead": "Bernie Cheng"
+  },
+  {
+    "page": "myReports",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "myreports2",
+    "team": "Knife",
+    "teamLead": "Thomas Jiang"
+  },
+  {
+    "page": "notification",
+    "team": "NULL Pixels",
+    "teamLead": "Bernie Cheng"
+  },
+  {
+    "page": "notifications",
+    "team": "NULL Pixels",
+    "teamLead": "Bernie Cheng"
+  },
+  {
+    "page": "notificationTemplateEmail",
+    "team": "NULL Pixels",
+    "teamLead": "Bernie Cheng"
+  },
+  {
+    "page": "notificationTemplates",
+    "team": "NULL Pixels",
+    "teamLead": "Bernie Cheng"
+  },
+  {
+    "page": "notificationTemplateText",
+    "team": "NULL Pixels",
+    "teamLead": "Bernie Cheng"
+  },
+  {
+    "page": "notificationTemplateWebRequest",
+    "team": "NULL Pixels",
+    "teamLead": "Bernie Cheng"
+  },
+  {
+    "page": "optimizationadmin",
+    "team": "EventHorizon",
+    "teamLead": "Julian Panzini"
+  },
+  {
+    "page": "optimizationcenter",
+    "team": "EventHorizon",
+    "teamLead": "Julian Panzini"
+  },
+  {
+    "page": "optimizationdispatch",
+    "team": "EventHorizon",
+    "teamLead": "Julian Panzini"
+  },
+  {
+    "page": "optimizationroute",
+    "team": "EventHorizon",
+    "teamLead": "Julian Panzini"
+  },
+  {
+    "page": "optimizationterritory",
+    "team": "EventHorizon",
+    "teamLead": "Julian Panzini"
+  },
+  {
+    "page": "options",
+    "team": "8-Bit",
+    "teamLead": "Danis Nguyen"
+  },
+  {
+    "page": "pageNotFound",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "pageNotLoaded",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "publicworksadmin",
+    "team": "Quasar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "registration.html",
+    "team": "8-Bit",
+    "teamLead": "Danis Nguyen"
+  },
+  {
+    "page": "releaseNotes",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "riskAnalytics",
+    "team": "Galaxy",
+    "teamLead": "Levi Tiessen"
+  },
+  {
+    "page": "riskManagement",
+    "team": "Knife",
+    "teamLead": "Thomas Jiang"
+  },
+  {
+    "page": "routeCompletion",
+    "team": "Quasar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "routePlanActual",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "routes",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "routeSummaryReport",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "routeView",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "rule",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "ruleedit",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "rules",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "safetyCenter",
+    "team": "Galaxy",
+    "teamLead": "Levi Tiessen"
+  },
+  {
+    "page": "selectAssetsEnroll",
+    "team": "Tallon",
+    "teamLead": "Olga Makhneva"
+  },
+  {
+    "page": "selfhelp",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "singledriverlogs",
+    "team": "Titan",
+    "teamLead": "Matthew (Matt) Claessens"
+  },
+  {
+    "page": "speedProfile",
+    "team": "Galaxy",
+    "teamLead": "Levi Tiessen"
+  },
+  {
+    "page": "supportTicket",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "supportTickets",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "sustainabilitycenter",
+    "team": "Green",
+    "teamLead": "Christopher Elliott"
+  },
+  {
+    "page": "systemSettings",
+    "team": "8-Bit",
+    "teamLead": "Danis Nguyen"
+  },
+  {
+    "page": "systemsettings2",
+    "team": "8-Bit",
+    "teamLead": "Danis Nguyen"
+  },
+  {
+    "page": "tachographmodule",
+    "team": "Siesta",
+    "teamLead": "Guillermo Martín Gomez"
+  },
+  {
+    "page": "tachographreports",
+    "team": "Siesta",
+    "teamLead": "Guillermo Martín Gomez"
+  },
+  {
+    "page": "timeCardReport",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "trailer",
+    "team": "Titan",
+    "teamLead": "Matthew (Matt) Claessens"
+  },
+  {
+    "page": "trailers",
+    "team": "Titan",
+    "teamLead": "Matthew (Matt) Claessens"
+  },
+  {
+    "page": "trainingTicket",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "trainingTickets",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "transferEld",
+    "team": "Titan",
+    "teamLead": "Matthew (Matt) Claessens"
+  },
+  {
+    "page": "trends",
+    "team": "NULL Pixels",
+    "teamLead": "Bernie Cheng"
+  },
+  {
+    "page": "tripsDensity",
+    "team": "NULL Pixels",
+    "teamLead": "Bernie Cheng"
+  },
+  {
+    "page": "tripsHistory",
+    "team": "Pixel Pipeline",
+    "teamLead": "Gordana Jekic Dzunic"
+  },
+  {
+    "page": "tripshistory2",
+    "team": "Pixel Pipeline",
+    "teamLead": "Gordana Jekic Dzunic"
+  },
+  {
+    "page": "tripsSummary",
+    "team": "NULL Pixels",
+    "teamLead": "Bernie Cheng"
+  },
+  {
+    "page": "unidentifieddriving",
+    "team": "Titan",
+    "teamLead": "Matthew (Matt) Claessens"
+  },
+  {
+    "page": "unmatchedRoute",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "upcomingMaintenance",
+    "team": "Costa del Sol",
+    "teamLead": "Jorge Salvador Caffarena"
+  },
+  {
+    "page": "uploadassetsenroll",
+    "team": "Tallon",
+    "teamLead": "Olga Makhneva"
+  },
+  {
+    "page": "user",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "users",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "users2",
+    "team": "4Front",
+    "teamLead": "Andrei Kozyakov"
+  },
+  {
+    "page": "videorecordings",
+    "team": "Team Focus",
+    "teamLead": "Prianka Mitra"
+  },
+  {
+    "page": "videorules",
+    "team": "Team Focus",
+    "teamLead": "Prianka Mitra"
+  },
+  {
+    "page": "vinDecoder",
+    "team": "Siesta",
+    "teamLead": "Guillermo Martín Gomez"
+  },
+  {
+    "page": "workHoliday",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "workHolidays",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "workhourdetailedit",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "workTime",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "workTimes",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "zone",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "zones",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "zonesenhanced",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "zoneType",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "zonetypeenhanced",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "zoneTypes",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  },
+  {
+    "page": "zonetypesenhanced",
+    "team": "Pulsar",
+    "teamLead": "Caitlin Mccann"
+  }
+]
