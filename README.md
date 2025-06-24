@@ -30,5 +30,11 @@ This extension provides a command:
 6.  In the new window, open any file with code.
 7.  Select a piece of code you want to be explained.
 8.  Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac).
-9.  Type `Ask Copilot to explain selection` and press Enter.
+9.  Type `Debug UI Sentry error` and press Enter.
 10. An output channel named "Copilot Explanation" will open and display the response from Copilot.
+
+## Hints
+
+1. Command `git clean -xdf` might speed up the process.
+2. Claude Sonnet 3.7 showed itself as the most accurate model (but the slowest!)
+3. Make sure to close all files in VSCode because it might confuse model's context. 
