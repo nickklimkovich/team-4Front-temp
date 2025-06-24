@@ -3,10 +3,10 @@ import { validate } from "./src/validator";
 import { parseException } from "./src/parser";
 import { loadFileAndGatherContent } from "./src/loader";
 import { showMultilineInputBox } from "./src/multilineWindow";
-import { andreiPrompt, nextPrompt } from "./prompts/andreiPrompt";
+import { nextNickPrompt, nickPrompt } from "./prompts/nickPrompt";
 
-const PROMPT = andreiPrompt;
-const NEXT_PROMPT = nextPrompt;
+const PROMPT = nickPrompt;
+const NEXT_PROMPT = nextNickPrompt;
 
 export function activate(context: vscode.ExtensionContext) {
     
@@ -27,12 +27,16 @@ export function activate(context: vscode.ExtensionContext) {
             
             while (currentTraceIndex < parsedException.trace.length) {
                 const currentStackTraceItem = parsedException.trace[currentTraceIndex];
-                const file = await loadFileAndGatherContent(currentStackTraceItem);
+                const {file, place, before, after } = await loadFileAndGatherContent(currentStackTraceItem);
                 
                 const promptTemplate = currentTraceIndex === 0 ? PROMPT : NEXT_PROMPT;
                 const message = promptTemplate.replace("{errorMessage}", parsedException.exception)
-                    .replace("{stackTrace}", JSON.stringify([currentStackTraceItem])) // Only use the current stack trace item
-                    .replace("{code}", file);
+                    .replace("{stackTrace}", JSON.stringify(parsedException.trace))
+                    .replace("{code}", file)
+                    .replace("{codePlace}", place)
+                    .replace("{before}", before.toString())
+                    .replace("{after}", after.toString())
+                    .replace(/\{step\}/g, (currentTraceIndex + 1).toString());
                 
                 // Create a status bar item to show processing status
                 const statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left);
