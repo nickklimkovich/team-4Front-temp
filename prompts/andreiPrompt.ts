@@ -1,3 +1,14 @@
+
+export const outputInstructions  = `Mandatory:
+1) DO NOT TRY TO FIX THE ERROR WHILE YOU GET SUCH APPROVAL!
+2) DO NOT COME UP WITH YOUR OWN CODE. USE ONLY EXISTED CODEBASE.
+3) DO NOT SHOW THINKING TEXT. JUST SHOW ME THE RESULT. USE EXAMPLE BELOW:
+
+Result example:
+The most likely place for this error to originate in distributionListEditor.ts is within the addRecipientHandler function:
+File: distributionListEditor.ts
+Line: Around 1435 (inside addRecipientHandler function)`;
+
 export const andreiPrompt = `
 I have next exception:
 Cause: {errorMessage}
@@ -22,14 +33,7 @@ Rules:
 
 Please provide at least three potential source locations (file name and line number) that are the most. Then go through the 3 files and find the best file where the file content mostly identical to the provided snippet of the minified code. Let's use the most promising candidate file and try to find the line where the error I prodived can happend.
 
-Mandatory:
-1)DO NOT TRY TO FIX THE ERROR WHILE YOU GET SUCH APPROVAL!
-2) DO NOT SHOW THINKING TEXT. JUST SHOW ME THE RESULT. USE EXAMPLE BELOW:
-
-Result example:
-The most likely place for this error to originate in distributionListEditor.ts is within the addRecipientHandler function:
-File: distributionListEditor.ts
-Line: Around 1435 (inside addRecipientHandler function)
+${outputInstructions}
 \`\`\`JavaScript
 addRecipientHandler = function (recipientType: string, recipient, lockTemplatesObj: boolean) {
     var params = recipientKinds[recipientType]; // <--- If recipientKinds[recipientType] is undefined, 'params' will be undefined.
@@ -48,4 +52,12 @@ addRecipientHandler = function (recipientType: string, recipient, lockTemplatesO
     }
 },
 \`\`\`
+`;
+
+export const nextPrompt = `
+Taking into account the previous result try to find the next stack trace item in the original source code. The uglified code to analyze is:
+
+\`\`\`{code}\`\`\`.
+
+${outputInstructions}
 `;
