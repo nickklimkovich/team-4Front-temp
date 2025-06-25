@@ -20,9 +20,6 @@ export function activate(context: vscode.ExtensionContext) {
                 return;
             }
             const parsedException = parseException(selectedText);
-            
-            // Process stack trace items one by one, offering to continue to next item
-            let currentTraceIndex = 0;
 
             const stackTraceFiles = await Promise.all(parsedException.trace.map(item => loadFileAndGatherContent(item)));
             
@@ -38,8 +35,7 @@ export function activate(context: vscode.ExtensionContext) {
 
             const message = PROMPT.replace("{errorMessage}", parsedException.exception)
                     .replace("{stackTrace}", JSON.stringify(parsedException.trace))
-                    .replace("{code}", promptFileItems)
-                    .replace(/\{step\}/g, (currentTraceIndex + 1).toString());
+                    .replace("{code}", promptFileItems);
 
             try {
                 // First, open the chat with the query
